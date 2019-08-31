@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link>
+    <meta charset="UTF-8">
+    <title>Login System</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+
+<body>
+
+        <header class="header_class">
+            <h1>Sign In</h1>
+        </header>
+            <br>
+        <div class="container">
+        <form class="form_class" method="post" action="login">
+            <div>
+                <label>Email</label>
+                <input type="text" name="email" value={{request.form.email}}>
+            </div>
+            <br>
+            <div>
+                <label>Password</label>
+                <input type="text" name="password" value={{request.form.password}}>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" value="Login">
+
+        </div>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
+
+<!--https://tiimg.tistatic.com/fp/1/004/813/natural-holi-color-powder-968.jpg
+https://img.pngio.com/holi-color-free-png-image-holi-color-png-1024_463.png-->
