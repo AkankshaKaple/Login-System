@@ -1,0 +1,37 @@
+*{
+    padding:5px;
+    text-align:center;
+
+}
+
+.header_class{
+    width:40%;
+    background-color:'black';
+    margin:auto;
+    border:5px red solid;
+
+
+}
+
+.form_class{
+    background-color:.green;
+}
+
+.container{
+    width:40%;
+    margin:auto;
+    border:5px red solid;
+
+
+}
+
+input {
+  width: 60%;
+  max-width: 300px;
+  border-radius: 4px;
+}
+
+label {
+  width: 30%;
+  text-align: right;
+}
